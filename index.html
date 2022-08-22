@@ -2,6 +2,9 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <title>SCANDI - дизайн-студия</title>
@@ -37,14 +40,14 @@
     </header>
     <main class="main-page">
       <section class="about-us">
-        <div class="abouts-us-top">
+        <div class="about-us-top">
           <h2 class="about-us-heading">
           Поможем сделать вашу квартиру уютнее
           </h2>
           <p class="about-us-description">
             Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим магазины и помогаем организовать доставку 
           </p>
-          <button type="button">Оставить заявку</button>
+          <button class="about-us-send" type="button">Оставить заявку</button>
         </div>
         <div class="about-us-bottom">
           <div class="text-conteiner">
@@ -52,9 +55,9 @@
             <p class="about-us-bottom-description">Наш коллектив сделает все, чтобы после сотрудничества с нами,  Вам было приятно сказать: « Да! Это именно то, что действительно достойно моего дома!»</p>
           </div>
           <ul class="about-us-features">
-            <li class="about-us-features-item">5 лет опыта работы</li>
-            <li class="about-us-features-item">100 проектов</li>
-            <li class="about-us-features-item">10 наград</li>
+            <li class="about-us-features-item"><span>5</span> лет опыта работы</li>
+            <li class="about-us-features-item"><span>100</span> проектов</li>
+            <li class="about-us-features-item"><span>10</span> наград</li>
           </ul>
         </div>
       </section>
@@ -99,6 +102,7 @@
           </li>
         </ul>
         <ol class="team-work">
+          <h2 class="team-work-heading">Как мы работаем</h2>
           <li class="team-work-item">Знакомимся, выезжаем на объект, утверждаем концепцию, подписываем договор.</li>
           <li class="team-work-item">Подбираем мебель, текстиль, аксессуары. Делаем 3D-визуализацию.</li>
           <li class="team-work-item">Находим нужные магазины, помогаем с доставкой и оплатой товаров.</li>
@@ -128,7 +132,7 @@
         <form class="request-form">
           <input type="text" value="Ваше имя">
           <input type="tel" name="tel" value="Введите телефон"></p>
-          <input type="submit" value="Оставить заявку">
+          <input class="request-form-submit" type="submit" value="Оставить заявку">
           <div class="request-map">
             <img class="request-map-item" src="img/image 54.jpg" alt="Наш адрес: г. Санкт-петербург, ул. Большая Конюшенная, 19" width="590" height="624">
           </div>

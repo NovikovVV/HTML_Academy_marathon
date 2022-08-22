@@ -1,0 +1,57 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-style: regular;
+  font-size: 18px;
+  line-height: 30px;
+  color: #533738;
+}
+
+.page-header {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.about-us-heading {
+  font-size: 50px;
+  line-height: 62px;
+}
+
+.about-us-send,
+.request-form-submit  {
+  font-size: 20px;
+  line-height: 24.38px;
+  font-style: medium;
+}
+
+.about-us-features-item {
+  font-size: 30px;
+  line-height: 37px;
+  font-style: medium;
+}
+
+.about-us-features-item span {
+  font-size: 50px;
+  line-height: 62px;
+}
+
+.our-works-heading,
+.team-heading,
+.team-work-heading,
+.reviews-heading,
+.request-heading {
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+.our-works-list-item-heading {
+  font-size: 30px;
+  line-height: 37px;
+  font-style: medium;
+}
+
+.our-works-gallery-link {
+  font-size: 30px;
+  line-height: 37px;
+  font-style: medium;
+}
